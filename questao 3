@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class Main3 {
+    public static void main(String[] args) {
+        Scanner inorpel = new Scanner(System.in);
+
+        double A1 = inorpel.nextDouble();
+        System.out.println("digite a primeira nota : ");
+
+        double A2 = inorpel.nextDouble();
+        System.out.println("digite a segunta nota : ");
+
+        double A3 = inorpel.nextDouble();
+        System.out.println("digite a terceira nota : ");
+
+        double media = (A1+A2+A3)/3;
+
+        if (media >=70){
+            System.out.println("Você passou, parabens!!! " +media);
+        }else {
+            System.out.println("Infelizmente foi reprovado :( "+media);
+        }
+    }
+}
