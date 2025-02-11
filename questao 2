@@ -1,0 +1,12 @@
+public class Main2 {
+    public static void main(String[] args) {
+
+        int v1 = 50;
+        int v2 = 40;
+        if(v1 <= v2){
+            System.out.println("50 é maior q 40");
+        }else {
+            System.out.println("50 é maior q 40");
+        }
+    }
+}
