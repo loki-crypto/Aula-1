@@ -1,0 +1,10 @@
+public class Main1 {
+    public static void main(String[] args) {
+
+       int hora = 40;
+       int reais = 15;
+       int total = 40 * 15;
+
+        System.out.println("seu salário é" +total);
+    }
+}
